@@ -17,7 +17,6 @@ const userSchema = new mongoose.Schema({
       },
     },
   },
-  movements: { type: Array, required: true, ref: "Movements" },
   passwordResetToken:{type:String},
   passwordResetExpires:{type:Date},
 });
